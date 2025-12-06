@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+  <video autoplay muted playsinline loop>
+    <source src="vidajeng.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
